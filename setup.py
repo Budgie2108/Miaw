@@ -1,7 +1,7 @@
 f = open(README)
 LD = f.read()
 from setuptools import setup
-setup(name='Kitty',
+setup(name='Miaw',
       version='0.1',
       description='A module full of functions',
       url='https://github.com/RobDaMob/Kitten/',
