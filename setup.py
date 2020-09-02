@@ -1,5 +1,9 @@
-f = open(README)
-LD = f.read()
+import pathlib
+from setuptools import setup
+
+HERE = pathlib.Path(__file__).parent
+
+RM = (HERE / "README.md").read_text()
 from setuptools import setup
 setup(name='Miaw',
       version='0.1',
@@ -10,5 +14,5 @@ setup(name='Miaw',
       license='MIT',
       packages=['Kitty'],
       zip_safe=False,
-      long_description=LD,
+      long_description=RM,
       long_description_content_type="text/markdown")
