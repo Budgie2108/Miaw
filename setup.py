@@ -12,12 +12,9 @@ setup(name='Miaw',
       author='Rob The Mob',
       author_email='RobWork@gmail.com',
       license='MIT',
-      packages=['Kitty'],
+      packages=['Miaw'],
       zip_safe=False,
       long_description=RM,
       long_description_content_type="text/markdown",
       include_package_data=True,
-      install_requires=["os", "time", "sys"],
-      entry_points={
-        "console_scripts": [
-            "kitten_main=kitten.kitten:main")
+      install_requires=["os", "time", "sys"])
