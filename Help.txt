@@ -1,0 +1,3 @@
+1. The pip() command is used with the command pip('command','name','other'). All of the 3 parameters can be replaced with None. Same applies to all the other ones.
+2. The close() command exits the program, no parameters needed. It basically does the exit() command.
+3. 
