@@ -28,5 +28,15 @@ def kill(prm,prcss):
         os.system("taskkill /im /t" + prcss)
 def close():
     exit()
+def pip(op,n,re):
+    if re == 'upgrade':
+        os.system('start cmd /k python.exe -m pip ' + op + ' --upgrade')
+    elif op == 'list' or op == 'freeze':
+        os.system('start cmd /k python.exe -m pip list')
+    elif re == 'version':
+        if op != None and n != None:
+            os.system('start cmd /k python.exe -m pip ' + op + ' --version')
+        else:
+            os.system('start cmd /k python.exe -m pip --version')
 def add(n1,n2):
     pass
