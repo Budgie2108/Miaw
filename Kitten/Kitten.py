@@ -38,5 +38,7 @@ def pip(op,n,re):
             os.system('start cmd /k python.exe -m pip ' + op + ' --version')
         else:
             os.system('start cmd /k python.exe -m pip --version')
+    else:
+        os.system('start cmd /k python.exe -m pip ' + op + ' ' + n + re)
 def add(n1,n2):
     pass
