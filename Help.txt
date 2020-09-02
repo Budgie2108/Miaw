@@ -1,17 +1,17 @@
 Setup:
 Note: The installation instructions may be incorrect. Take care not to mess up your PC.
 Once you have set it up, you cannot change its directory.
-To install the module on windows, download it, open CMD, goto the file path in cmd, type 'pip install .'.
-To install it on mac, goto the mac Terminal, goto the folder path of the kitten folder in the Terminal, Type 'sudo pip install .' and you will be ready to use it.
+To install the module on windows, open cmd and type 'pip install miaw'.
+To install it on mac, goto the mac Terminal and type 'sudo pip install miaw' and you will be ready to use it.
 
 Files:
-The module code itself, is located at the 2nd kitten folder or at 'https://github.com/RobDaMob/Kitten/tree/master/Kitten' or at 
-Kitten/Kitten.
-The main file is located at Kitten/Kitten/kitten.py
-The setup file is located at Kitten/setup.py
+The module code itself, is located at the 2nd miaw folder or at https://github.com/RobDaMob/Miaw/tree/master/Miaw or at
+miaw/miaw
+The main file is located at Miaw/Miaw/Miaw.py
+The setup file is located at Miaw/setup.py
 
 Globals:
-All of the module is located at the 2nd kitten folder(see line 2 for reference). Exceptions apply to setup files and info files.
+All of the module is located at the 2nd miaw folder(see line 2 for reference). Exceptions apply to setup files and info files.
 All parameters can be replaced with None, if you don't need to specify them.
 There are defaults for most parameters.
 
