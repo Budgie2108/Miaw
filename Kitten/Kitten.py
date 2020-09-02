@@ -1,12 +1,17 @@
 import os
 import sys
 import time
-def stutter(text):
-    for c in text:
+def slow_write(txt,speed):
+    if speed != None:
+        speed = float(speed)
+    for c in txt:
         print(c, end="")
         sys.stdout.flush()
-        time.sleep(.02)
-stutter('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Hello from my cats!>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+        if speed != None:
+            time.sleep(speed)
+        else:
+            time.sleep(0.02)
+slow_write('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Hello from my cats!>>>>>>>>>>>>>>>>>>>>>>>>>>>>>',None)
 def write(x):
     print(x)
 def kill(prm,prcss):
@@ -40,5 +45,7 @@ def pip(op,n,re):
             os.system('start cmd /k python.exe -m pip --version')
     else:
         os.system('start cmd /k python.exe -m pip ' + op + ' ' + n + re)
+def del(f):
+    os.remove(f)
 def add(n1,n2):
     pass
