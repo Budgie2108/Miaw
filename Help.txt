@@ -1,5 +1,14 @@
+Setup:
+Note: The installation instructions may be incorrect. Take care not to mess up your PC.
+Once you have set it up, you cannot change its directory.
+To install the module on windows, download it, open CMD, goto the file path in cmd, type 'pip install .'.
+To install it on mac, goto the mac Terminal, goto the folder path of the kitten folder in the Terminal, Type 'sudo pip install .' and you will be ready to use it.
+
 Files:
-The module code itself, is located at the 2nd kitten folder or at               'https://github.com/RobDaMob/Kitten/tree/master/Kitten'.
+The module code itself, is located at the 2nd kitten folder or at 'https://github.com/RobDaMob/Kitten/tree/master/Kitten' or at 
+Kitten/Kitten.
+The main file is located at Kitten/Kitten/kitten.py
+The setup file is located at Kitten/setup.py
 
 Globals:
 All of the module is located at the 2nd kitten folder(see line 2 for reference). Exceptions apply to setup files and info files.
@@ -8,7 +17,9 @@ There are defaults for most parameters.
 
 
 Commands:
-1. The pip() command is used with the command pip('command','name','other'). All of the 3 parameters can be replaced with None. Same applies to all the other ones.
+1. The pip() command is used with the command pip('command','name','other').
 2. The close() command exits the program, no parameters needed. It basically does the exit() command.
-3. The kill() command exits a process with 2 parameters. parameters and process name/PID. The first one needs things like /t, /f, /n (which means /im), and PID. The second one needs the PID or the name of the process.
-4. The slow_write() command writes letters one at a time. The parameters are the thing(s) to write and the speed to write.
+3. The kill() command exits a process with 2 parameters. parameters and process name/PID. The first one needs things like /t, /f, /n (which means /im), and PID.
+The second one needs the PID or the name of the process.
+4. The slow_write() command prints letters one at a time. The parameters are the thing(s) to print and the speed to write.
+5. The write() command needs one parameter. What to write()/print()
