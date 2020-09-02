@@ -1,3 +1,5 @@
+f = open(README)
+LD = f.read()
 from setuptools import setup
 setup(name='Kitty',
       version='0.1',
@@ -7,4 +9,6 @@ setup(name='Kitty',
       author_email='RobWork@gmail.com',
       license='MIT',
       packages=['Kitty'],
-      zip_safe=False)
+      zip_safe=False,
+      long_description=LD,
+      long_description_content_type="text/markdown")
